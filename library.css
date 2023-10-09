@@ -1,3 +1,9 @@
+header h1 {
+	font-size: 48px;
+	background-image: linear-gradient(to left, #4a235a, #6c3483);
+	color: white;
+}
+
 body {
 	font-family: sans-serif;
 	font-size: 16px;
