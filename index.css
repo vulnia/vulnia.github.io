@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Anonymous Pro', Sans-Serif;
+	font-family: 'Anonymous Pro';
 	src: 
 		url('static/fonts/AnonymousPro-Regular.otf') format('opentype'),
 		url('static/fonts/AnonymousPro-Regular.woff') format ('woff'),
@@ -10,6 +10,7 @@
 	font-weight: regular;
 }
 html {
+	font-family: 'Anonymous Pro', Sans-Serif;
 	background: linear-gradient(135deg, #CCCCFF, #FFF2CC) no-repeat fixed;
 	background-size: cover;
 }
