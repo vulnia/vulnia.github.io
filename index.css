@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Anonymous Pro';
 	src: 
-		url('static/fonts/AnonymousPro-Regular.otf') format('otf'),
+		url('static/fonts/AnonymousPro-Regular.otf') format('opentype'),
 		url('static/fonts/AnonymousPro-Regular.woff') format ('woff'),
 		url('static/fonts/AnonymousPro-Regular.tff') format('truetype'),
 		url('file:///C:/Users/mmtab/Desktop/website/static/fonts/AnonymousPro-Regular.woff') format('woff');
