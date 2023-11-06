@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Anonymous Pro';
+	src: 
+		url('static/fonts/AnonymousPro-Regular.otf') format('otf'),
+		url('static/fonts/AnonymousPro-Regular.woff') format ('woff'),
+		url('static/fonts/AnonymousPro-Regular.tff') format('truetype'),
+		url('file:///C:/Users/mmtab/Desktop/website/static/fonts/AnonymousPro-Regular.woff') format('woff');
+	  /*In Firefox, line 7 requires security.fileuri setting in about:config set to false, otherwise download will fail for same-source security reasons.
+	    This is a minor issue that only affects debugging.*/
+	font-weight: regular;
+}
+html {
+	background: linear-gradient(135deg, #CCCCFF, #FFF2CC) no-repeat fixed;
+	background-size: cover;
+}
+h1 {
+	font-family: 'Anonymous Pro', regular;
+	font-size: 72px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+h2 {
+	font-family: 'Anonymous Pro', regular;
+	font-size: 36px;
+	margin-left: 10px;
+	margin-top: -40px;
+}
+p {
+	font-family: 'Anonymous Pro', regular;
+	font-size: 18px;
+	margin-left: 10px;
+}
+

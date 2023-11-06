@@ -3,7 +3,8 @@
 	src: 
 		url('assets/AnonymousPro-Regular.otf') format('otf'),
 		url('assets/AnonymousPro-Regular.woff') format ('woff'),
-		url('assets/AnonymousPro-Regular.tff') format('truetype');
+		url('assets/AnonymousPro-Regular.tff') format('truetype'),
+		local('C:/Users/mmtab/Desktop/website/assets/AnonymousPro-Regular.woff') format('woff');
 	font-weight: regular;
 }
 
