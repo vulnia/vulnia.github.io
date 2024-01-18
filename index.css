@@ -32,4 +32,17 @@ p {
 	font-size: 18px;
 	margin-left: 10px;
 }
-
+table {
+	border: solid 3px #aaaaaa;
+	border-collapse: collapse;
+	font-family: 'Anonymous Pro', regular;
+	font-size: 18px;
+	width: 50%;
+}
+th {
+	border: solid 1px #aaaaaa;
+}
+td {
+	border: solid 1px #aaaaaa;
+	padding: 10px;
+}
