@@ -1,19 +1,14 @@
 @font-face {
-	font-family: 'Roboto Condensed';
+	font-family: 'Roboto';
 	src: 
-		url('../static/fonts/RobotoCondensed-Regular.otf') format('opentype'),
-		url('../static/fonts/RobotoCondensed-Regular.woff') format ('woff'),
-		url('../static/fonts/RobotoCondensed-Regular.tff') format('truetype'),
-		url('file:///C:/Users/mmtab/Desktop/website/static/fonts/RobotoCondensed-Regular.woff') format('woff');
-	  /*In Firefox, line 7 requires security.fileuri.strict_origin_policy setting in about:config set to false.
-	    This is a minor issue that only affects debugging.*/
-	font-weight: regular;
-}
-html {
-	background-image: url("../static/images/rer_html.png") no-repeat fixed;
+		url('static/fonts/Roboto-Regular.otf') format('opentype'),
+		url('static/fonts/Roboto-Regular.woff') format ('woff'),
+		url('static/fonts/Roboto-Regular.tff') format('truetype'),
+		url('file:///C:/Users/mmtab/Documents/_Vulnia/_Website/static/fonts') format('woff');
+	  /*Firefox : security.fileuri.strict_origin_policy setting in about:config set to false.*/
 }
 h1 {
-	font-family: 'Roboto Condensed', regular;
+	font-family: 'Roboto', regular;
 	font-size: 36px;
 	
 	text-align: center;
@@ -23,13 +18,13 @@ h1 {
 	background-color: #ffcc30;
 }
 h2 {
-	font-family: 'Roboto Condensed', regular;
+	font-family: 'Roboto', regular;
 	font-size: 36px;
 	
 	margin-left: 100px;
 }
 p {
-	font-family: 'Roboto Condensed', regular;
+	font-family: 'Roboto', regular;
 	font-size: 24px;
 	margin: 100px;
 	margin-top: 25px;
@@ -43,7 +38,7 @@ table {
 	margin: 100px;
 	margin-top: 25px;
 	
-	font-family: 'Roboto Condensed', regular;
+	font-family: 'Roboto', regular;
 	font-size: 18px;
 	width: 50%;
 	
