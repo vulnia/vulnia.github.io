@@ -3,45 +3,54 @@
 	src: 
 		url('static/fonts/AnonymousPro-Regular.otf') format('opentype'),
 		url('static/fonts/AnonymousPro-Regular.woff') format ('woff'),
-		url('static/fonts/AnonymousPro-Regular.tff') format('truetype'),
-		url('file:///C:/Users/mmtab/Desktop/website/static/fonts/AnonymousPro-Regular.woff') format('woff');
-	  /*In Firefox, line 7 requires security.fileuri.strict_origin_policy setting in about:config set to false.
-	    This is a minor issue that only affects debugging.*/
+		url('static/fonts/AnonymousPro-Regular.tff') format('truetype');
 	font-weight: regular;
 }
+
 html {
-	background: linear-gradient(340deg, #262626, #0D0D0D) no-repeat fixed;
+	font-family: 'Anonymous Pro', regular;
+
+	background: linear-gradient(#050514, #000000) no-repeat fixed;
 	background-size: cover;
-	
-	color: #aaaaaa;
+
+	margin-left: 50px;
+	margin-right: 50px;
+
+	color: #ffffff;
 }
-h1 {
-	font-family: 'Anonymous Pro', regular;
-	font-size: 72px;
-	margin-left: 10px;
-	margin-top: 10px;
+
+h1 {	
+	font-size: 48px;
+	padding: 20px;
+
+	color: #050514;
+	background-color: #ffffff;
 }
+
 h2 {
-	font-family: 'Anonymous Pro', regular;
 	font-size: 36px;
-	margin-left: 10px;
-	margin-top: -40px;
 }
+
+h3 {
+	font-size: 24px;
+}
+
 p {
-	font-family: 'Anonymous Pro', regular;
-	font-size: 18px;
-	margin-left: 10px;
+	font-size: 16px;
+	margin-left: 25px;
 }
+
 table {
 	border: solid 3px #aaaaaa;
 	border-collapse: collapse;
-	font-family: 'Anonymous Pro', regular;
 	font-size: 18px;
 	width: 50%;
 }
+
 th {
 	border: solid 1px #aaaaaa;
 }
+
 td {
 	border: solid 1px #aaaaaa;
 	padding: 10px;
