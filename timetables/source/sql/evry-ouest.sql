@@ -216,9 +216,7 @@ AND t.trip_headsign IN ("1601","1608","0801")
 
 ORDER BY st_I.departure_time
 
-/*
 INTO OUTFILE '/usr/local/mysql/mysql-files/evry-ouest.csv'
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
-*/
 ;
