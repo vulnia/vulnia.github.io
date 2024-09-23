@@ -2,16 +2,25 @@
 	font-family: 'Anonymous Pro';
 	src: 
 		url('static/fonts/AnonymousPro-Regular.otf') format('opentype'),
-		url('static/fonts/AnonymousPro-Regular.woff') format ('woff'),
+		url('static/fonts/AnonymousPro-Regular.woff') format('woff'),
 		url('static/fonts/AnonymousPro-Regular.tff') format('truetype');
 	font-weight: regular;
+}
+
+.flag{
+	font-size: 10px;
+	padding-left: 0px;
+}
+
+.par{
+	font-size: 10px;
+	padding-left: 25px;
 }
 
 html {
 	font-family: 'Anonymous Pro', regular;
 
-	background: linear-gradient(#050514, #000000) no-repeat fixed;
-	background-size: cover;
+	background: #000028;
 
 	margin-left: 50px;
 	margin-right: 50px;
@@ -20,24 +29,31 @@ html {
 }
 
 h1 {	
-	font-size: 48px;
-	padding: 20px;
+	font-size: 24px;
+	padding: -10px;
 
-	color: #050514;
+	color: #000028;
 	background-color: #ffffff;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 18px;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 12px;
 }
 
 p {
-	font-size: 16px;
-	margin-left: 25px;
+	display: inline;
+}
+
+a {
+	font-size: 10px;
+}
+
+a:link, a:visited {
+	color: #ffffff;
 }
 
 table {
