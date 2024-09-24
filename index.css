@@ -8,23 +8,20 @@
 }
 
 .flag{
-	font-size: 10px;
+	font-size: 8px;
 	padding-left: 0px;
 }
 
-.par{
-	font-size: 10px;
-	padding-left: 25px;
+.plain{
+	font-size: 12px;
+	padding-left: 24px;
 }
 
 html {
 	font-family: 'Anonymous Pro', regular;
-
 	background: #000028;
-
 	margin-left: 50px;
 	margin-right: 50px;
-
 	color: #ffffff;
 }
 
@@ -40,16 +37,8 @@ h2 {
 	font-size: 18px;
 }
 
-h3 {
-	font-size: 12px;
-}
-
-p {
-	display: inline;
-}
-
 a {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 a:link, a:visited {
