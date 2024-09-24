@@ -15,6 +15,7 @@
 .plain{
 	font-size: 12px;
 	padding-left: 24px;
+ white-space: pre;
 }
 
 html {
