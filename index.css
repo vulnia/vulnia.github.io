@@ -8,7 +8,7 @@
 }
 
 .flag{
-	font-size: 6px;
+	font-size: 8px;
 	padding-left: 0px;
 }
 
@@ -28,7 +28,7 @@ html {
 
 h1 {	
 	font-size: 24px;
-	padding: -10px;
+	padding: 0px;
 
 	color: #000028;
 	background-color: #ffffff;
