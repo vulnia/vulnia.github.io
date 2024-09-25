@@ -20,9 +20,9 @@
 
 html {
 	font-family: 'Anonymous Pro', regular;
-	background: #000028;
-	margin-left: 50px;
-	margin-right: 50px;
+	background-image: linear-gradient(45deg, #000028, #000000);
+	margin-left: 48px;
+	margin-right: 48px;
 	color: #ffffff;
 }
 
@@ -47,17 +47,17 @@ a:link, a:visited {
 }
 
 table {
-	border: solid 3px #aaaaaa;
+	border: solid 3px #ffffff;
 	border-collapse: collapse;
 	font-size: 18px;
 	width: 50%;
 }
 
 th {
-	border: solid 1px #aaaaaa;
+	border: solid 1px #ffffff;
 }
 
 td {
-	border: solid 1px #aaaaaa;
+	border: solid 1px #ffffff;
 	padding: 10px;
 }
