@@ -1,0 +1,80 @@
+@font-face {
+        font-family: 'Anonymous Pro';
+        src: 
+                url('static/fonts/AnonymousPro-Regular.otf') format('opentype'),
+                url('static/fonts/AnonymousPro-Regular.woff') format('woff'),
+                url('static/fonts/AnonymousPro-Regular.tff') format('truetype');
+        font-weight: regular;
+}
+
+.flag{
+        font-size: 12px;
+        padding-left: 0px;
+}
+
+.plain{
+  font-size: 12px;
+  white-space: pre;
+  text-wrap: wrap;
+  text-align: justify;
+}
+
+html {
+        font-family: 'Anonymous Pro', regular, monospace;
+        background: #000028;
+        margin-left: 24px;
+        margin-right: 24px;
+        color: #ffffff;
+}
+
+h1 {        
+        font-size: 24px;
+        padding: 0px;
+
+        color: #000028;
+        background-color: #ffffff;
+}
+
+h2 {
+        font-size: 18px;
+}
+
+h3{
+  font-size: 14px;
+}
+
+a {
+        font-size: 12px;
+}
+
+a:link, a:visited {
+        color: #ffffff;
+}
+
+table {
+        border: solid 3px #ffffff;
+        border-collapse: collapse;
+        font-size: 18px;
+        width: 50%;
+}
+
+th {
+        border: solid 1px #ffffff;
+}
+
+td {
+        border: solid 1px #ffffff;
+        padding: 10px;
+}
+
+footer {
+        font-size: 0px;
+}
+
+img {
+        max-width: 100%;
+        max-height: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
