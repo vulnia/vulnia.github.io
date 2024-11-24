@@ -7,11 +7,6 @@
         font-weight: regular;
 }
 
-hr{
-        height: 1px;
-        background: white;
-}
-
 .flag{
         border: 0;
         height: 4px;
@@ -56,6 +51,11 @@ a {
 
 a:link, a:visited {
         color: #ffffff;
+}
+
+hr{
+        height: 1px;
+        background: white;
 }
 
 table {
