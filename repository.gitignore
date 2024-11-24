@@ -1,9 +1,0 @@
-#Files to be ignored by GitHub commits shall be marked under here.
-
-#Editable files
-*.odg
-*.odt
-*.ods
-
-#Raw data
-*.txt
