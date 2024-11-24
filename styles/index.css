@@ -8,8 +8,10 @@
 }
 
 .flag{
-        font-size: 12px;
-        padding-left: 0px;
+        border: 0;
+        height: 4px;
+        
+        background: linear-gradient(to right, rgb(210,96,165) 0%, rgb(210,96,165) 14.3%, rgb(228,175,205) 14.3%, rgb(228,175,205) 28.6%, rgb(255,255,255) 28.6%, rgb(255,255,255) 42.9%, rgb(87,206,248) 42.9%, rgb(87,206,248) 57.1%, rgb(255,255,255) 57.1%, rgb(255,255,255) 71.4%, rgb(228,175,205) 71.4%, rgb(228,175,205) 85.7%, rgb(210,96,165) 85.7%, rgb(210,96,165) 100.0%);
 }
 
 .plain{
@@ -51,6 +53,11 @@ a:link, a:visited {
         color: #ffffff;
 }
 
+hr{
+        height: 1px;
+        background: white;
+}
+
 table {
         border: solid 3px #ffffff;
         border-collapse: collapse;
@@ -77,4 +84,7 @@ img {
         padding-top: 10px;
         padding-bottom: 10px;
 }
+
+
+
 
