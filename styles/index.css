@@ -3,7 +3,8 @@
         src: 
                 url('static/fonts/AnonymousPro-Regular.otf') format('opentype'),
                 url('static/fonts/AnonymousPro-Regular.woff') format('woff'),
-                url('static/fonts/AnonymousPro-Regular.tff') format('truetype');
+                url('static/fonts/AnonymousPro-Regular.tff') format('truetype'),
+                url('static/fonts/AnonymousPro-Regular.woff2') format('woff2');
         font-weight: regular;
 }
 
